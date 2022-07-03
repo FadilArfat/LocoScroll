@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Tourism</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.2/dist/locomotive-scroll.min.js"></script>
+    <link rel="stylesheet" href="locoScroll.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header  -->
+    <header class="header">
+      <div class="logo">LOGO</div>
+      <ul class="menu-items">
+        <li><a href="#home">Sign Up</a></li>
+      </ul>
+    </header>
+
+    <!-- container  -->
+
+    <div class="container" data-scroll-container>
+      <!-- Home  -->
+      <section class="home jumbotron" id="home" data-scroll data-scroll-speed="2.5">
+        <div class="container-content">
+          <div class="home-heading heading1" data-scroll data-scroll-speed="2.5">
+            <h1>Discover</h1>
+          </div>
+          <div class="home-heading heading2" data-scroll data-scroll-speed="2.5"></div>
+        </div>
+        <footer class="footer">
+          <div class="social-links">
+            <ul data-scroll data-scroll-speed="2.5">
+              <li><a href="" style="padding-right: 50px">Facebook </a></li>
+              <li><a href="" style="padding-right: 50px">Instagram </a></li>
+              <li><a href="" style="padding-right: 50px">Snapchat </a></li>
+              <li><a href="">Github </a></li>
+            </ul>
+          </div>
+        </footer>
+        <div class="jam" data-scroll data-scroll-speed="2.5">
+          <p><span id="date-time"></span>.</p>
+        </div>
+      </section>
+
+      <!-- About  -->
+      <section class="row about-container">
+        <div class="column">
+          <h3 style="padding-bottom: 10px; font-size: 30px">Tour to the Bali</h3>
+          <div class="about-description" data-scroll data-scroll-speed="2.5" style="text-justify: newspaper; text-align: justify">
+            <p>
+              First of all, I would like to say thank you so much for visiting the Bali Golden Tour website.<br /><br />
+              Please relax and enjoy going through all of the Bali Tours Packages and Bali Tours Services available through our web site. Bali Golden Tour is a Local Bali Tour Operator Services in Bali and Travel Guide Site which manage by
+              original Balinese people.<br /><br />
+              We can make suggestions of where it is the best to stay, see, do, buy depending on your focus and also can make recommendations based on fair comparisons depending on your needs and wants during your holiday in Bali. Above
+              all, your safety is my primary concern.<br />
+            </p>
+            <p style="text-align: right; font-weight: bold">More -></p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="about-image" data-scroll data-scroll-speed="2.5">
+            <div class="image" style="border-radius: 2%"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Contact  -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
